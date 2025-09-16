@@ -7,7 +7,9 @@ import com.sparta.memo.repository.MemoRepository;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.util.List;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MemoService {
 
     private final JdbcTemplate jdbcTemplate;
